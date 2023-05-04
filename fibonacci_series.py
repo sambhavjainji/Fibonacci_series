@@ -1,0 +1,12 @@
+n=int(input("Enter a no.\n"))
+a=0
+b=1
+i=2
+print(a,end=' ')
+print(b,end=' ')
+while(i<=n):
+    c=a+b
+    a=b
+    b=c
+    i=i+1
+    print(c,end=' ')
